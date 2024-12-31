@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { WordFadeIn } from '@/components/ui/word-fade-in'
 import { GradualSpacing } from '@/components/ui/gradual-spacing'
 import { WavyBackground } from './ui/wavy-background'
 
