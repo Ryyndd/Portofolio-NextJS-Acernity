@@ -16,9 +16,9 @@ export function Contact() {
         >
           <h2 className="text-5xl md:text-7xl font-bold mb-8">Get in Touch</h2>
           <p className="text-xl text-gray-400 mb-12">
-            Have a project in mind? Lets work together to create something amazing.
+            Have a project in mind? Let&apos;s work together to create something amazing.
           </p>
-            <ConfettiButton className="bg-white text-black px-14 py-10 rounded-full font-medium text-lg mb-12" >Let's talk</ConfettiButton>
+            <ConfettiButton className="bg-white text-black px-14 py-10 rounded-full font-medium text-lg mb-12" >Let&apos;s talk</ConfettiButton>
           <div className="flex justify-center gap-8">
             <motion.a
               href="https://github.com/Ryyndd"
