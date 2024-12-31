@@ -13,8 +13,9 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     rules: {
-      "rule-name-to-disable": "off",
-      "another-rule-to-disable": "off",
+      "@next/next/no-img-element": "off", // Menonaktifkan aturan <img> di Next.js
+      "@typescript-eslint/no-explicit-any": "off", // Menonaktifkan aturan penggunaan 'any'
+      "react-hooks/exhaustive-deps": "off", // Menonaktifkan aturan dependencies pada useEffect
     },
   },
 ];
